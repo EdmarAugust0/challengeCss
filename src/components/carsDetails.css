@@ -1,0 +1,11 @@
+.list {
+    margin: 8px 0;
+    list-style: none;
+    border: 1px solid #000;
+    border-radius: 8px;
+    padding: 8px;
+
+    li:last-child {
+        font-weight: bold;
+    }
+}
