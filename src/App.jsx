@@ -14,9 +14,11 @@ function App() {
   return (
     <div className='container'>
       <h1>Carros em exposição: </h1>
-      {cars.map((car) => (
-        <CarsDetails key={car.id} brand={car.brand} color={car.color} km={car.km}/>
-      ))}
+        <div className='cards'>
+          {cars.map((car) => (
+            <CarsDetails key={car.id} brand={car.brand} color={car.color} km={car.km}/>
+          ))}
+        </div>
     </div>
   )
 }

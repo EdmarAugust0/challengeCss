@@ -5,7 +5,20 @@
     border-radius: 8px;
     padding: 8px;
 
-    li:last-child {
+    li {
+        margin-bottom: 8px;
+    }
+
+    li:first-child {
         font-weight: bold;
     }
+
+    li:last-child {
+        font-weight: bold;
+        margin: 0;
+    }
+}
+
+.list:hover {
+    border-color: aqua;
 }

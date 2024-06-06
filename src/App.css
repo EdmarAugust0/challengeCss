@@ -24,3 +24,10 @@ h1 {
 h1:hover {
   border-color: black;
 }
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 16px;
+}
+
